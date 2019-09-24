@@ -1,0 +1,29 @@
+{
+  "name": "heroku-node-sample",
+  "version": "1.0.0",
+  "description": "A sample node app deployed to Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiekind/heroku-node-sample.git"
+  },
+  "keywords": [
+    "heroku",
+    "node"
+  ],
+  "author": "Judilyn But-anon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiekind/heroku-node-sample/issues"
+  },
+  "homepage": "https://github.com/xiekind/heroku-node-sample#readme",
+  "engines": {
+    "node": "10.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
