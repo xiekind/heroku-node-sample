@@ -1,0 +1,67 @@
+<!-- BUTA-ANON -->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>But-anon Socket.IO Chat</title>
+  <link rel="icon" type="image/png" href="assets/MYlOGO.png" />
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Inconsolata&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <!-- SWEETALERT LINKS -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+</head>
+
+<!-- <body style="background: linear-gradient(to bottom, #ff0066 0%, #cc33ff 100%)"> -->
+
+<body style="background: linear-gradient(to bottom, #ff0066 0%, #cc33ff 100%)">
+
+  <!-- <body style="background-color:grey"> -->
+  <div class="container">
+    <!-- <div class="jumbotron text-center" style="background: linear-gradient(to bottom, #ff00ff 0%, #ff99ff 100%)"> -->
+    <div style="border-radius:20px;" class="jumbotron text-center">
+      <h1>WELCOME to Socket.IO</h1>
+    </div>
+    <div style="background-color:white;border-radius: 50px;">
+      <!-- <div> -->
+      <ul class="pages">
+        <li class="chat page">
+          <div class="chatArea">
+            <ul class="messages"></ul>
+          </div>
+          <input style="color:#ff0066;border-radius: 20px;" class="inputMessage" placeholder="Type here..." />
+          <button style="border-radius: 20px" class="btn btn-success" id="send">Send</button>
+        </li>
+
+        <li class="login page text-center">
+          <div class="form">
+            <h3 class="title">What's your nickname?</h3>
+            <input class="nickName " type="text" maxlength="15" minlength="3" />
+            <br>
+            <br>
+            <button style="border-radius: 20px" class="btn btn-success " id="submit">Enter</button>
+          </div>
+        </li>
+    </div>
+
+
+    <div class="container">
+      <div class="row text-left">
+        <div>active users</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
